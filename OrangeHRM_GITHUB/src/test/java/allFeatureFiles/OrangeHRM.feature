@@ -1,0 +1,1 @@
+Feature: test Orange HRM application
