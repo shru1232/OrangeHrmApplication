@@ -6,8 +6,10 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features="src/test/java/allFeatureFiles",
 		glue="stepDefinition",
-		dryRun=false
+		dryRun=true
 		)
 public class RunnerStep extends AbstractTestNGCucumberTests{
 
+	
+	
 }

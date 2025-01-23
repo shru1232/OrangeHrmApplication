@@ -4,7 +4,7 @@ import BaseLayer.BaseClass;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageLAyer.LoginPage;
+import pageLayer.LoginPage;
 
 public class LoginPageStep extends BaseClass{
 	
@@ -25,4 +25,6 @@ public class LoginPageStep extends BaseClass{
 	   login.clickOnLoginBtn();
 	}
 
+	
+	
 }
